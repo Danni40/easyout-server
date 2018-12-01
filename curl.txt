@@ -1,0 +1,19 @@
+
+
+# Create item
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"name":"Bill Weidner","message":"Off Day"}' \
+  http://localhost:8080/api/easy-out
+
+# Update item
+curl --header "Content-Type: application/json" \
+  --request PUT \
+  --data '{"name":"Bill Weidner","message":"On Day"}' \
+  http://localhost:8080/api/easy-out/5c0302e264cba5057075f489  
+
+
+ # Delete item
+curl --header "Content-Type: application/json" \
+  --request DELETE \
+  http://localhost:8080/api/easy-out/5c0302d164cba5057075f488  
