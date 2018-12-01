@@ -1,4 +1,4 @@
-# Groceries Server
+# Easy-Out Server
 
 ### Express based REST server for serving MongoDB content using Mongoose node module
 
