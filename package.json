@@ -4,6 +4,7 @@
   "description": "Easyout server using Mongoose",
   "main": "server.js",
   "scripts": {
+    "prestart": "express build",
     "start": "node server.js"
   },
   "devDependencies": {
