@@ -108,6 +108,7 @@ app.delete('/api/easy-out/:id', function (req, res) {
 });
 
 
-// Start app and listen on port 8080  
-app.listen(process.env.PORT || 8080);
+// Start app and listen on port 8081  
+var port = process.env.PORT || 8081
+app.listen(port);
 console.log("Easy-Out server listening on port  - ", (process.env.PORT || port));

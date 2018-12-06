@@ -17,8 +17,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Danni40/easyout-server.git",
-    "express": "4.16.3"
+    "url": "git+https://github.com/Danni40/easyout-server.git"
+  },
+  "engines": {
+    "node": "11.0.0"
   },
   "author": "dsl",
   "license": "ISC",
