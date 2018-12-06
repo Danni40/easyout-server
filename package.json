@@ -4,7 +4,6 @@
   "description": "Easyout server using Mongoose",
   "main": "server.js",
   "scripts": {
-    "prestart": "express build",
     "start": "node server.js"
   },
   "devDependencies": {
@@ -12,6 +11,7 @@
     "cors": "2.8.4",
     "express": "^4.16.3",
     "method-override": "2.3.10",
+    "mongodb": "*",
     "mongoose": "5.1.5",
     "morgan": "1.9.0"
   },
