@@ -13,5 +13,16 @@
     "method-override": "2.3.10",
     "mongoose": "5.1.5",
     "morgan": "1.9.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danni40/easyout-server.git"
+  },
+  "author": "dsl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danni40/easyout-server/issues"
+  },
+  "homepage": "https://github.com/Danni40/easyout-server#readme"
 }
