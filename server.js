@@ -26,6 +26,7 @@ app.use(function (req, res, next) {
 var EasyOut = mongoose.model('EasyOut', {
     name: String,
     message: String,
+    remarks: String,
 });
 
 
@@ -54,6 +55,7 @@ app.post('/api/easy-out', function (req, res) {
     EasyOut.create({
         name: req.body.name,
         message: req.body.message,
+        remarks: req.body.remarks,
         done: false
     }, function (err, easyout) {
         if (err) {
@@ -74,7 +76,8 @@ app.post('/api/easy-out', function (req, res) {
 app.put('/api/easy-out/:id', function (req, res) {
     const easyout = {
         name: req.body.name,
-        message: req.body.message
+        message: req.body.message,
+        remarks: req.body.remarks
     };
     console.log("Updating item - ", req.params.id);
     EasyOut.update({_id: req.params.id}, easyout, function (err, raw) {
